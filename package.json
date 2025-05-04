@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node startup.js",
+    "start": "pm2 start startup.js --deep-monitoring --attach --name UDMODZ",
     "stop": "pm2 stop UDMODZ",
     "restart": "pm2 restart UDMODZ"
   },
